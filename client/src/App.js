@@ -1,8 +1,12 @@
-import React from 'react'
-
+import BlogsContainer from './components/BlogsContainer';
+import { Toaster } from 'react-hot-toast';
 const App = () => {
+
   return (
-    <div>App</div>
+    <div>
+        <Toaster />
+      <BlogsContainer />
+    </div>
   )
 }
 

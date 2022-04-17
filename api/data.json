@@ -1,0 +1,100 @@
+[
+    {
+      "category": "frontend",
+      "description": "Create CSS Grid layouts using the new grid system & use it together with CSS3 Flexbox and Sass for an amazing workflow",
+      "price": "free",
+      "name": "Learn CSS",
+      "imgUrl": "https://eduport.webestica.com/assets/images/courses/4by3/12.jpg",
+      "level": "beginner",
+      "language" :"arabic"
+    },
+    {
+        "category": "design",
+        "description" : "Finally a comprehensive guide to using Sketch for designing mobile applications. Learn to design an app from A to Z",
+        "price": "paid",
+        "name": "Learn Sketch",
+        "imgUrl": "https://eduport.webestica.com/assets/images/courses/4by3/08.jpg",
+        "level": "intermediate",
+        "language" :"frensh"
+      },
+      {
+        "category": "backend",
+        "price": "free",
+        "name": "Learn Python",
+        "imgUrl": "https://eduport.webestica.com/assets/images/courses/4by3/05.jpg",
+        "level": "advanced",
+        "language" :"english"
+      }, 
+      {
+        "category": "frontend",
+        "price": "free",
+        "name": "Learn HTML",
+        "imgUrl": "https://eduport.webestica.com/assets/images/courses/4by3/11.jpg",
+        "level": "beginner",
+        "language" :"english"
+      },
+      {
+        "category": "design",
+        "price": "free",
+        "name": "Learn PS",
+        "imgUrl": "https://eduport.webestica.com/assets/images/courses/4by3/02.jpg",
+        "level": "beginner",
+        "language" :"frensh"
+      },  
+      {
+        "category": "design",
+        "price": "paid",
+        "name": "Learn Figma",
+        "imgUrl": "https://eduport.webestica.com/assets/images/courses/4by3/03.jpg",
+        "level": "intermediate",
+        "language" :"arabic"
+      },  
+      {
+        "category": "backend",
+        "price": "free",
+        "name": "Learn Angular",
+        "imgUrl": "https://eduport.webestica.com/assets/images/courses/4by3/06.jpg",
+        "level": "beginner",
+        "language" :"spanish"
+      },  
+      {
+        "category": "design",
+        "price": "free",
+        "name": "Learn Sketch",
+        "imgUrl": "https://eduport.webestica.com/assets/images/courses/4by3/08.jpg",
+        "level": "beginner",
+        "language" :"english"
+      },
+      {
+        "category": "fullstack",
+        "price": "free",
+        "name": "Learn JavaScript",
+        "imgUrl": "https://eduport.webestica.com/assets/images/courses/4by3/09.jpg",
+        "level": "beginner",
+        "language" :"english"
+      }, 
+      {
+        "category": "frontend",
+        "price": "paid",
+        "name": "Learn Bootstrap",
+        "imgUrl": "https://eduport.webestica.com/assets/images/courses/4by3/10.jpg",
+        "level": "advanced",
+        "language" :"english"
+      }, 
+      {
+        "category": "backend",
+        "price": "paid",
+        "name": "Learn Php",
+        "imgUrl": "https://eduport.webestica.com/assets/images/courses/4by3/13.jpg",
+        "level": "beginner",
+        "language" :"arabic"
+      },
+      {
+        "category": "frontend",
+        "price": "paid",
+        "name": "Learn React",
+        "imgUrl": "https://eduport.webestica.com/assets/images/courses/4by3/07.jpg",
+        "level": "beginner",
+        "language" :"english"
+      }   
+  ]
