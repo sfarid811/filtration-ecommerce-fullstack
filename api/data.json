@@ -1,7 +1,7 @@
 [
     {
       "category": "frontend",
-      "description": "Create CSS Grid layouts using the new grid system & use it together with CSS3 Flexbox and Sass for an amazing workflow",
+      "description": "Create CSS Grid layouts using the new grid system & use it together with CSS3 Flexbox and Sass for an amazing workflow.",
       "price": "free",
       "name": "Learn CSS",
       "imgUrl": "https://eduport.webestica.com/assets/images/courses/4by3/12.jpg",
@@ -10,7 +10,7 @@
     },
     {
         "category": "design",
-        "description" : "Finally a comprehensive guide to using Sketch for designing mobile applications. Learn to design an app from A to Z",
+        "description" : "Finally a comprehensive guide to using Sketch for designing mobile applications. Learn to design an app from A to Z.",
         "price": "paid",
         "name": "Learn Sketch",
         "imgUrl": "https://eduport.webestica.com/assets/images/courses/4by3/08.jpg",
@@ -19,6 +19,7 @@
       },
       {
         "category": "backend",
+        "description" : "Learn Python like a Professional Start from the basics and go all the way to creating your own applications and games.",
         "price": "free",
         "name": "Learn Python",
         "imgUrl": "https://eduport.webestica.com/assets/images/courses/4by3/05.jpg",
@@ -27,6 +28,7 @@
       }, 
       {
         "category": "frontend",
+        "description" : "Modern, semantic and accessible HTML5. How to use common components and layout patterns for professional website design and development.",
         "price": "free",
         "name": "Learn HTML",
         "imgUrl": "https://eduport.webestica.com/assets/images/courses/4by3/11.jpg",
@@ -35,6 +37,7 @@
       },
       {
         "category": "design",
+        "description" : "This Adobe Photoshop Essentials course will teach you Photoshop Retouching as well as Photoshop for graphic design.",
         "price": "free",
         "name": "Learn PS",
         "imgUrl": "https://eduport.webestica.com/assets/images/courses/4by3/02.jpg",
@@ -43,6 +46,7 @@
       },  
       {
         "category": "design",
+        "description" : "Become a Designer in 2022! Master Mobile and Web Design, User Interface + User Experience (UI/UX Design), HTML, and CSS.",
         "price": "paid",
         "name": "Learn Figma",
         "imgUrl": "https://eduport.webestica.com/assets/images/courses/4by3/03.jpg",
@@ -50,7 +54,8 @@
         "language" :"arabic"
       },  
       {
-        "category": "backend",
+        "category": "frontend",
+        "description" : "Get job ready with Angular! Master the latest version of Angular and learn to build large scale apps that set you apart.",
         "price": "free",
         "name": "Learn Angular",
         "imgUrl": "https://eduport.webestica.com/assets/images/courses/4by3/06.jpg",
@@ -59,6 +64,7 @@
       },  
       {
         "category": "design",
+        "description" : "Master Sketch software and learn a modern approach to designing mobile apps, websites, and everything UI/UX.",
         "price": "free",
         "name": "Learn Sketch",
         "imgUrl": "https://eduport.webestica.com/assets/images/courses/4by3/08.jpg",
@@ -67,6 +73,7 @@
       },
       {
         "category": "fullstack",
+        "description" : "The modern JavaScript course for everyone! Master JavaScript with projects, challenges and theory. Many courses in one!",
         "price": "free",
         "name": "Learn JavaScript",
         "imgUrl": "https://eduport.webestica.com/assets/images/courses/4by3/09.jpg",
@@ -75,6 +82,7 @@
       }, 
       {
         "category": "frontend",
+        "description" : "Master all parts of Bootstrap 5 and customization with Sass using Learning Kit, coding exercises, quizzes and much more.",
         "price": "paid",
         "name": "Learn Bootstrap",
         "imgUrl": "https://eduport.webestica.com/assets/images/courses/4by3/10.jpg",
@@ -83,6 +91,7 @@
       }, 
       {
         "category": "backend",
+        "description" : "PHP for Beginners: learn everything you need to become a professional PHP developer with practical exercises & projects.",
         "price": "paid",
         "name": "Learn Php",
         "imgUrl": "https://eduport.webestica.com/assets/images/courses/4by3/13.jpg",
@@ -91,6 +100,7 @@
       },
       {
         "category": "frontend",
+        "description" : "Dive in and learn React.js from scratch! Learn Reactjs, Hooks, Redux, React Routing, Animations, Next.js and way more!",
         "price": "paid",
         "name": "Learn React",
         "imgUrl": "https://eduport.webestica.com/assets/images/courses/4by3/07.jpg",
