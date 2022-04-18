@@ -1,9 +1,12 @@
 import { useEffect } from "react";
 import { useSelector, useDispatch } from "react-redux";
-import { getAllBlogs } from "../features/allBlogs/allBlogsSlice";
+import { getAllBlogs, clearFilters } from "../features/allBlogs/allBlogsSlice";
 import Blog from "./Blog";
 import FormRowSelect from "./FormRowSelect";
 import PageBtnContainer from "./PageBtnContainer";
+import Spinner from './Spinner';
+
+
 
 const BlogsContainer = () => {
   const {
@@ -18,25 +21,30 @@ const BlogsContainer = () => {
     language,
     level,
     sort,
-  } = useSelector((store) => store.allBlogs);
+  } = useSelector((state) => state.allBlogs);
+  
   const dispatch = useDispatch();
+  const handleSubmit = (e) => {
+    e.preventDefault();
+    dispatch(clearFilters());
+  };
 
   useEffect(() => {
     dispatch(getAllBlogs());
   }, [dispatch, page, search, category, price, language, level, sort]);
 
   if (isLoading) {
-    return <div className="text-center">Loading...</div>;
+    return <Spinner/> ;
   }
 
   if (blogs.length === 0) {
-    return <h2>No blogs to display...</h2>;
+    return <h2 onClick={handleSubmit} className="text-center">No blogs to display... click me!</h2>;
   }
 
   return (
     <section className="py-4">
       <div className="container">
-        {/* {totalBlogs} job{blogs.length > 1 && 's'} found */}
+        {totalBlogs} blog{blogs.length > 1 && 's'} found
         <FormRowSelect />
         <div className="row">
           <div className="col-12">

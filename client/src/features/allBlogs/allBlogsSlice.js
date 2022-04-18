@@ -2,6 +2,8 @@ import { createSlice, createAsyncThunk } from "@reduxjs/toolkit";
 import toast from "react-hot-toast";
 import { customFetch } from "../../utils/axios";
 
+
+
 const initialFiltersState = {
   search: "",
   category: "all",
@@ -11,6 +13,7 @@ const initialFiltersState = {
   sort: "latest",
   sortOptions: ["latest", "oldest", "a-z", "z-a"],
 };
+
 
 const initialState = {
   isLoading: true,
@@ -23,11 +26,12 @@ const initialState = {
 
 export const getAllBlogs = createAsyncThunk(
   "allBlogs/getBlogs",
-  async (_, { rejectWithValue }) => {
-    const { page, search, category, price, level, language, sort } =
-      initialState;
+  async (_, thunkAPI) => {
+    const { page, search, category, price, level, language, sort } = thunkAPI.getState().allBlogs;
 
-    let url = `/?category=${category}&price=${price}&level=${level}&language=${language}&sort=${sort}&page=${page}`;
+    
+   
+    let url = `?category=${category}&price=${price}&level=${level}&language=${language}&sort=${sort}&page=${page}`;
     if (search) {
       url = url + `&search=${search}`;
     }
@@ -35,7 +39,7 @@ export const getAllBlogs = createAsyncThunk(
       const response = await customFetch.get(url);
       return response.data;
     } catch (error) {
-      return rejectWithValue(error.response?.data);
+      return thunkAPI(error.response?.data);
     }
   }
 );
