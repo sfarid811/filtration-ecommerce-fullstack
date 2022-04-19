@@ -5,6 +5,7 @@ import Blog from "./Blog";
 import FormRowSelect from "./FormRowSelect";
 import PageBtnContainer from "./PageBtnContainer";
 import Spinner from './Spinner';
+import Error from './Error';
 
 
 
@@ -38,7 +39,7 @@ const BlogsContainer = () => {
   }
 
   if (blogs.length === 0) {
-    return <h2 onClick={handleSubmit} className="text-center">No blogs to display... click me!</h2>;
+    return <Error handleSubmit={handleSubmit}/>;
   }
 
   return (
