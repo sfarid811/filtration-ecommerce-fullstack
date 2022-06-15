@@ -45,6 +45,7 @@ const BlogsContainer = () => {
   return (
     <section className="py-4">
       <div className="container">
+      {/* {totalBlogs} blog{ blogs.length > 1 ? 's' : '' } found */}
         {totalBlogs} blog{blogs.length > 1 && 's'} found
         <FormRowSelect />
         <div className="row">
